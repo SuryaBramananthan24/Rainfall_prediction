@@ -44,13 +44,9 @@ To train a rainfall prediction model and make predictions:
 2. Prepare your dataset in CSV format (`data.csv`).
 3. Run the script to train and evaluate the model:
    ```bash
-   python train_model.py --data data.csv
+   python Rainfall_prediction.py --data data.csv
    ```
-4. After training, you can use the trained model to predict rainfall for new data:
-   ```bash
-   python predict_rainfall.py --input new_data.csv --output predictions.csv
-   ```
-
+   
 ## Models
 We experimented with several machine learning models for rainfall prediction, including:
 
