@@ -1,46 +1,57 @@
-# Rainfall_prediction
-Rainfall Prediction Project
+# Rainfall Prediction Project
 
 This repository contains code and resources for predicting rainfall using machine learning techniques.
 
-Introduction:
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Models](#models)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
 Rainfall prediction is crucial for various applications, including agriculture, water resource management, and disaster preparedness. This project aims to develop machine learning models that predict rainfall based on historical weather data.
 
-Dataset:
+## Dataset
 The dataset used for this project is sourced from [Global Historical Climatology Network - Daily (GHCN-D)](https://www.ncdc.noaa.gov/ghcn-daily-description). It consists of historical weather data with features such as temperature, humidity, wind speed, and previous rainfall measurements. The target variable is the amount of rainfall (in millimeters) recorded at specific time intervals.
 
-Dataset Details:
-      Source: [Global Historical Climatology Network - Daily (GHCN-D)](https://www.ncdc.noaa.gov/ghcn-daily-description)
-      Features: Temperature, Humidity, Wind Speed, Previous Rainfall
-      Target Variable: Rainfall (mm)
-      Data Size: Approximately 100,000 instances with 15 features
+- **Dataset Details**:
+  - **Source**: [Global Historical Climatology Network - Daily (GHCN-D)](https://www.ncdc.noaa.gov/ghcn-daily-description)
+  - **Features**: Temperature, Humidity, Wind Speed, Previous Rainfall
+  - **Target Variable**: Rainfall (mm)
+  - **Data Size**: Approximately 100,000 instances with 15 features
 
-Installation
+## Installation
 To run the code in this repository, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/your_username/rainfall-prediction.git
+   ```bash
+   git clone https://github.com/SuryaBramananthan24/rainfall-prediction.git
    cd rainfall-prediction
-   
+   ```
 
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-   
-Usage
+   ```
+
+## Usage
 To train a rainfall prediction model and make predictions:
 
 1. Ensure you have Python and necessary dependencies installed (see Installation section).
 2. Prepare your dataset in CSV format (`data.csv`).
 3. Run the script to train and evaluate the model:
-   
+   ```bash
    python train_model.py --data data.csv
-  
+   ```
 4. After training, you can use the trained model to predict rainfall for new data:
-  
+   ```bash
    python predict_rainfall.py --input new_data.csv --output predictions.csv
-   
+   ```
 
-Models:
+## Models
 We experimented with several machine learning models for rainfall prediction, including:
 
 - Linear Regression
@@ -50,8 +61,9 @@ We experimented with several machine learning models for rainfall prediction, in
 Each model was evaluated based on metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
 
-Contributing
+## Contributing
 Contributions to this project are welcome. To contribute:
+
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
 3. Make your changes.
@@ -59,7 +71,8 @@ Contributions to this project are welcome. To contribute:
 5. Push to the branch (`git push origin feature/improvement`).
 6. Create a new Pull Request.
 
-License
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-[Surya B](https://github.com/SuryaBramananthan24) 
+## Done By
+- [Surya B](https://github.com/SuryaBramananthan24) 
